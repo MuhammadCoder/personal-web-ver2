@@ -5,6 +5,10 @@ h1{
   letter-spacing: .2px;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
 /*Nav*/
 
 .header {
@@ -42,6 +46,14 @@ h1{
 
 /*Home*/
 
+#home{
+  /*height: 100vh;*/
+  padding-top: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .resbtn
 {
   color: #fff;
@@ -51,22 +63,75 @@ h1{
 
 }
 
-#home{
-  /*height: 100vh;*/
-  padding-top: 20%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .box{
-  width: 110%;
+  width: 120%;
   height: 110%;
   background-color: #152738;
   border-radius: 7.5px;
   box-shadow: 0 0 10px rgba(0,0,0,.2);
   /*position: absolute;*/
 }
+
+.editorBtn {
+  padding: 30px;
+  display: flex;
+}
+
+.red1 {
+  background-color: #fa4646;
+}
+
+.yellow1{
+  background-color: #faa746;
+}
+
+.green1{
+  background-color: #56d663;
+}
+span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+    /*margin-bottom: -30px;*/
+
+}
+
+.content {
+  white-space: pre-wrap;
+  outline: 0;
+  color: white;
+  margin-left: 35px;
+  margin-bottom: -30px;
+}
+
+.mainDiv {
+  color: rgb(222, 107, 116);
+  margin-left: 30px;
+  margin-bottom: -30px;
+}
+
+.comment1 {
+  white-space: pre-wrap;
+  font-size: 16px;
+  letter-spacing: 1px;
+  /*margin-left: 30px;*/
+  font-weight: 400;
+  color: #ffe817;
+  display: inline-block;
+}
+.mainContent{
+  white-space: pre-wrap;
+  width: 100%;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: block;
+  letter-spacing: 1px;
+  font-weight: 400;
+
+}
+
+
 /*Typing */
 
 .text-js

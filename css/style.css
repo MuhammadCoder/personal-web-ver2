@@ -64,7 +64,7 @@ h1{
 }
 
 .box{
-  width: 120%;
+  width: 115%;
   height: 110%;
   background-color: #152738;
   border-radius: 7.5px;
@@ -101,14 +101,19 @@ span {
   white-space: pre-wrap;
   outline: 0;
   color: white;
-  margin-left: 35px;
-  margin-bottom: -30px;
+  margin-left: 42px;
+  margin-bottom: -40px;
+  /*color: rgb(222, 107, 116);*/
 }
 
 .mainDiv {
   color: rgb(222, 107, 116);
   margin-left: 30px;
-  margin-bottom: -30px;
+  margin-bottom: -40px;
+}
+
+.editColor {
+  color: rgb(222, 107, 116);
 }
 
 .comment1 {

@@ -1,4 +1,98 @@
+/*General */
+h1{
+  font-size: 60px;
+  font-weight: 300;
+  letter-spacing: .2px;
+}
 
+/*Nav*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1250px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+
+}
+.name1 {
+  font-size: 24;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  padding-left:10%;
+}
+.btn1{
+  /*#00a8e8*/
+  color: #fff;
+  display: inline-block;
+  background-color: #00a8e8;
+  border-radius: 3.75px;
+  font-weight: 400;
+  border: none;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+#navbarRight{
+  margin-left: 55%;
+}
+
+
+/*Home*/
+
+.resbtn
+{
+  color: #fff;
+  display: inline-block;
+  background-color: #00a8e8;
+  border-radius: 3.75px;
+
+}
+
+#home{
+  /*height: 100vh;*/
+  padding-top: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box{
+  width: 110%;
+  height: 110%;
+  background-color: #152738;
+  border-radius: 7.5px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  /*position: absolute;*/
+}
+/*Typing */
+
+.text-js
+{
+  opacity: 0;
+}
+
+.cursor{
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@@keyframes  flash {
+  0%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 #particles-js {
   position: absolute;
   top: 0;

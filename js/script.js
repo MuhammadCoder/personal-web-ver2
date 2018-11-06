@@ -32,3 +32,10 @@ $(document).ready(function(){
   // The second paramter is the speed between each letter is typed.
   autoType(".type-js",130);
 });
+
+$(".projectbox").hover(function () {
+
+  // $(".test1").addClass("btn btn-rounded resbtn")
+  $(this).addClass(' animated pulse')
+
+});

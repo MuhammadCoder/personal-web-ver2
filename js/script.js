@@ -33,9 +33,12 @@ $(document).ready(function(){
   autoType(".type-js",130);
 });
 
-$(".projectbox").hover(function () {
+$(".projectbox").mouseenter(function () {
 
-  // $(".test1").addClass("btn btn-rounded resbtn")
-  $(this).addClass(' animated pulse')
+  $(this).addClass('animated pulse')
+});
 
+$(".projectbox").mouseleave(function () {
+
+  $(this).removeClass('animated pulse')
 });

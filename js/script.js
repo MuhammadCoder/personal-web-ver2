@@ -33,6 +33,8 @@ $(document).ready(function(){
   autoType(".type-js",130);
 });
 
+
+// animation for portfilo box
 $(".projectbox").mouseenter(function () {
 
   $(this).addClass('animated pulse')

@@ -229,7 +229,7 @@ span {
 
 .projectbox{
   width: 320px;
-  height: 250px;
+  height: 260px;
   /*border-radius: 1%;*/
   border-radius: 7.5px;
   background-size: cover;
@@ -252,7 +252,7 @@ span {
     position: absolute;
     background-color: rgba(0, 0, 0, .6);
     width: 320px;
-    height: 250px;
+    height: 260px;
     border-radius: 7.5px;
     padding: 40px;
     transition: all ease 200ms;
